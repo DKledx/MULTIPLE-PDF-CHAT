@@ -1,2 +1,19 @@
-.env
+# Python:
+*.pyc
+__pycache__/
+
+# Virtual environment:
 venv/
+
+# System files:
+.DS_Store
+
+# Configuration files:
+.env
+
+# Database files:
+*.db
+*.sqlite3
+
+# User uploaded files:
+media/
